@@ -1,4 +1,4 @@
-# open-emacs package
+# open-emacs - Atom package Beta
 Open a current file in Emacs.
 
 ![](https://raw.githubusercontent.com/yoshiori/open-emacs/master/open-emacs.gif)
