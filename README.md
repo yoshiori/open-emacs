@@ -16,7 +16,7 @@ The following commands are available for you to remap and/or run via the command
 
 ## Back To The Future
 
-```list
+```lisp
 (defun open-atom ()
   (interactive)
   (call-process
