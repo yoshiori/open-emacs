@@ -6,7 +6,7 @@ Open a current file in Emacs.
 ## Installation
 
 ```
-$ apm install pomodoro
+$ apm install open-emacs
 ```
 
 ## Usage
