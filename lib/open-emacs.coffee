@@ -3,7 +3,8 @@
 module.exports =
 
   activate: (state) ->
-    atom.workspaceView.command "open-emacs:open", => @open()
+    atom.commands.add "atom-workspace",
+      "open-emacs:open": => @open()
 
   open: ->
     exec "which emacsclient", (error, stdout, stderr) ->
