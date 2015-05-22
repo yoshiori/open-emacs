@@ -3,9 +3,9 @@
   "main": "./lib/open-emacs",
   "version": "0.1.2",
   "description": "Open a current file in Emacs",
-  "activationEvents": [
-    "open-emacs:open"
-  ],
+  "activationCommands": {
+    "atom-workspace": "open-emacs:open"
+  },
   "repository": "https://github.com/yoshiori/open-emacs",
   "license": "MIT",
   "engines": {
