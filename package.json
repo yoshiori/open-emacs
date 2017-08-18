@@ -2,7 +2,7 @@
   "name": "open-emacs",
   "main": "./lib/open-emacs",
   "version": "0.2.0",
-  "description": "Open a current file in Emacs",
+  "description": "Open current file in Emacs",
   "activationCommands": {
     "atom-workspace": "open-emacs:open"
   },
